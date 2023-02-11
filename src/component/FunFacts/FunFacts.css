@@ -12,8 +12,7 @@
 }
 .fun-facts-list {
   width: 100%;
-  padding-inline: 20px;
-  list-style: none;
+  padding-inline: 40px;
 }
 
 .fun-facts-list li {
@@ -27,11 +26,7 @@
 
   margin-bottom: 20px;
 }
-.fun-facts-list li::before {
-  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #61dafb; /* Change the color */
-  font-weight: bold; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1em; /* Also needed for space (tweak if needed) */
-  margin-left: 1em; /* Also needed for space (tweak if needed) */
+.fun-facts-list > li::marker {
+  font-size: 1.4rem;
+  color: #61dafb;
 }
