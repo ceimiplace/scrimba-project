@@ -1,10 +1,13 @@
-import MainContent from "./component/MainContent";
+import MainContent from "./component/MainContent/MainContent";
 import Navigation from "./component/Navigation";
+import FunFacts from "./component/FunFacts/FunFacts";
 function App() {
   return (
     <div className="App">
       <Navigation />
-      <MainContent />
+      <MainContent>
+        <FunFacts />
+      </MainContent>
     </div>
   );
 }

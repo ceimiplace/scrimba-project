@@ -1,0 +1,12 @@
+.main-container {
+  flex-grow: 1;
+  background-color: #282d35;
+  position: relative;
+  overflow: hidden;
+}
+.main-container-logo {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
