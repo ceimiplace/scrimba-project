@@ -6,22 +6,32 @@
   line-height: 47px;
   letter-spacing: -0.05em;
   color: white;
+  margin-left: 27px;
+  margin-top: 57px;
+  margin-bottom: 46px;
 }
-/* .fun-facts-list {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-
-  color: #ffffff;
-} */
 .fun-facts-list {
+  width: 100%;
+  padding-inline: 20px;
+  list-style: none;
+}
+
+.fun-facts-list li {
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 30px;
 
   color: #ffffff;
+
+  margin-bottom: 20px;
+}
+.fun-facts-list li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #61dafb; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: 1em; /* Also needed for space (tweak if needed) */
 }

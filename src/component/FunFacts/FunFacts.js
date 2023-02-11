@@ -3,7 +3,7 @@ export default function FunFacts() {
   return (
     <div className="fun-facts">
       <h2 className="fun-facts-heading">Fun facts about React</h2>
-      <ul>
+      <ul className="fun-facts-list">
         <li>Was first released in 2013</li>
         <li>Was originally created by Jordan Walke</li>
         <li>Has well over 100K stars on GitHub</li>
