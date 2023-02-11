@@ -1,3 +1,4 @@
+import "./MainContent.css";
 export default function MainContent() {
-  return <main>Hello from main component</main>;
+  return <main className="main-container">Hello from main component</main>;
 }
