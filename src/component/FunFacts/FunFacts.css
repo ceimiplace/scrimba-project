@@ -30,3 +30,7 @@
   font-size: 1.6rem;
   color: #61dafb;
 }
+.fun-facts {
+  max-width: 1500px;
+  margin-inline: auto;
+}
